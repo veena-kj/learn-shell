@@ -19,3 +19,8 @@ function_name1() {
 }
 
 function_name1 123 xyz
+
+func_heading(){
+  echo -e "\e[35m<<<<<<<<<< $1 >>>>>>>>>>\e[0m"
+  }
+func_heading "installing softwares"
