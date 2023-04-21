@@ -5,6 +5,13 @@ name=DevOps
 echo a = $a
 echo name = ${name}
 
+source common.sh
+dirname $0
+echo $0
+pwd
+script_path=$(dirname $0)
+echo ${script_path}
+#exit
 #
 #DATE=2023-04-18
 DATE=$(date +%F)
