@@ -12,6 +12,15 @@ pwd
 script_path=$(dirname $0)
 echo ${script_path}
 #exit
+
+script=$(realpath $0)
+script_path=$(dirname $script)
+source ${script_path}/common.sh
+pwd
+echo ${script}
+echo ${script_path}
+pwd
+exit
 #
 #DATE=2023-04-18
 DATE=$(date +%F)
