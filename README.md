@@ -1,19 +1,17 @@
-# learn-shell
-Sample test
-some important concepts in shell scripting
-
-shell scripting topics.
+learn-shell
+We will learn shell scripting topics.
 List of Shell Topics
-How to write shell script file
-Printing
-Variables
-Inputs
-Conditions
-Loop
-Function
-Exit Status
-Quotes
-SED Editor
+1.How to write shell script file
+2.Printing
+3.Variables
+4.Inputs
+5.Conditions
+6.Loop
+7.Function
+8.Exit Status
+9.Quotes
+10.SED Editor
+
 SED Command Options
 delete some lines
 - based on line numbers
